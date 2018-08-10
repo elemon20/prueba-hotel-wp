@@ -1,0 +1,155 @@
+/*
+	Warper
+---------------------*/
+
+.header-left{
+	float:left;
+}
+.header-right{
+	float:right;
+}
+.site-header .container-width{
+	position:relative;
+}
+
+
+
+/*
+	Branding
+---------------------*/
+.site-header{
+    box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+    background:#fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+
+/* Menu
+----------------------*/
+
+a.responsive-menu-hand{
+	right: 0;
+	left:auto;
+	top: 11px;
+}
+#site-navigation{
+	float: left;
+	margin-top: 8px;
+}
+.main-navigation li{
+	border-radius: 50px;
+	margin-left: 0px;
+	margin-right: 0px;
+	border:solid 2px rgba(241, 241, 241, 0);
+}
+.main-navigation a{
+ 	font-size: 14px;
+ 	font-weight: normal;
+ 	padding-top: 7px;
+ 	padding-bottom: 7px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+}
+.main-navigation ul ul {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    box-sizing: border-box;
+	
+	width:200px;
+	padding:0;
+}
+#header_menu li ul li:last-child{
+	border-bottom:0;
+}
+/**/
+.header_menu ul.menu li ul li{
+	border:0;
+	border-bottom:solid 1px;
+}
+.main-navigation ul ul a{
+	padding:8px 12px;
+}
+.header_menu ul.menu li ul li:last-child{
+	border-radius:0px 0px 3px 3px;
+}
+.header_menu ul.menu li ul li:first-child{
+	border-radius:3px 3px 0px 0px;
+}
+
+
+
+/*
+	Logo & title Styling
+---------------------*/
+.site-header .site-header-in{
+	position:relative;	
+}
+
+.site-header .site-title,
+.site-header .site-description{
+	margin-top:0;
+	margin-bottom:0;	
+}
+.site-header .site-title{
+	line-height:1.1;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 3px;
+}
+.site-header .site-title a{
+	text-decoration:none;
+	color:#000;	
+}
+.site-header .site-description{
+	font-size:14px;	
+}
+.site-header .ph1_logo img{
+	max-width:100%;	
+}
+
+
+
+
+/*	Woo Cart
+----------------------*/
+.header_woo_cart{
+	margin-top: 12px;
+	float:right;
+	margin-left: 15px;
+}
+
+
+
+/*	Social Icons
+----------------------*/
+.header_social_icons {
+    float: right;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.header_social_icons a{
+	border:solid 2px rgba(241,241,241,0.00);
+	border-radius: 100%;
+}
+
+
+/*	Responsive
+----------------------*/
+@media screen and (max-width: 1080px){
+	#site-navigation{
+		display:none;
+	}
+	a.responsive-menu-hand{
+		display:block
+	}
+	.header-right{
+		padding-right: 50px;
+	}
+}
+@media screen and (max-width: 650px){
+	.site-header .social-widgets{
+		display:none;
+	}
+}

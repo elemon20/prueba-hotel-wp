@@ -1,0 +1,145 @@
+.site-header{
+    box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+    background:#fff;
+}
+.braning-and-widgets{
+	padding-top: 13px;
+    padding-bottom: 12px;	
+}
+
+.site-branding{
+	width: 30%;
+	float: left;
+}
+.header-widgets{
+	width: 65%;
+	float: right;
+}
+.header-widgets .header_email{
+	float: right;
+	margin-left: 15px;
+}
+.header-widgets .header_phone{
+	float: right;
+	margin-right: 15px;
+}
+a.responsive-menu-hand{
+	right:	auto;
+	left:0;
+}
+.mavigation-holder{
+    border-top: 1px solid #eeeeee;
+}
+.mavigation-holder::after,
+.mavigation-holder::before{
+	display:table;
+	clear:both;
+	content:" ";
+}
+.mavigation-holder-in{ 
+	position:relative; 
+}
+
+#site-navigation{
+	float: left;
+}
+.social-widgets{
+	float: right;
+}
+
+.main-navigation ul ul {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    padding: 4px;
+    box-sizing: border-box;
+    width: 208px;
+}
+#header_menu li ul li:last-child{
+	border-bottom:0;
+}
+
+/*
+	Logo & title Styling
+---------------------*/
+.site-header .site-header-in{
+	position:relative;	
+}
+
+.site-header .site-title,
+.site-header .site-description{
+	margin-top:0;
+	margin-bottom:0;	
+}
+.site-header .site-title{
+	line-height:1.1;
+	line-height: 1.1;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+.site-header .site-title a{
+	text-decoration:none;
+	color:#000;	
+}
+.site-header .site-description{
+	font-size:14px;	
+}
+.site-header .ph1_logo img{
+	max-width:100%;	
+}
+
+
+
+
+
+/*	Social Icons
+----------------------*/
+.social-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 768px){
+	.header_phone.eSkin_1 .header_phone_img,
+	.header_email.eSkin_1 .header_email_img{
+		display:none;	
+	}
+	.header_email.eSkin_1.has_icon .header_email_text,
+	.header_phone.eSkin_1.has_icon .header_phone_text{
+		padding-left:0;
+	}
+}
+@media screen and (max-width: 650px){
+	.header_phone.eSkin_1 .header_phone_text span,
+	.header_email.eSkin_1 .header_email_text span{
+		display:none;
+	}
+	.site-branding{
+		width:100%;
+		text-align: center;
+		padding-top:10px;
+		padding-bottom:10px;
+		float: none;
+	}
+	.header-widgets{
+		width:100%;
+		background-color:#f1f1f1;
+		padding:5px 20px;
+		border-radius:5px 5px 0 0;
+		max-width:320px;
+		margin:0 auto;
+		float:none;
+		overflow: hidden;
+	}
+	.braning-and-widgets{
+		padding:0;
+	}
+	.header_phone.eSkin_1,
+	.header_email.eSkin_1{
+		text-align:center;
+		width:100%;
+		margin-left:0;
+		margin-right:0
+	}
+}

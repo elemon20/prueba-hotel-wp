@@ -1,0 +1,336 @@
+/*
+Theme Name: The Hotel
+Theme URI: http://tallythemes.com/product/free-hotel-wordpress-theme-hotel-lite/
+Author: TallyThemes
+Author URI: http://tallyThemes.com
+Description: Free Hotel WordPress Theme. This smart and responsive WordPress theme that is suitable for hotel, resort, villas, holiday rentals, hospitality, business, restaurant, eatery, cuisine, cafe, lodge, etc.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: the-hotel
+Template: steed
+Tags: one-column, two-columns, right-sidebar, custom-menu, featured-images, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog, custom-logo
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+
+Steed WordPress Theme, Copyright (C) 2016, TallyThemes
+Steed is distributed under the terms of the GNU GPL
+
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Content
+	## Posts and pages
+	## Comments
+# Layout
+# Site Header
+# Site Footer
+# Site Content
+--------------------------------------------------------------*/
+@media (max-width: 992px) {
+	h1{
+		font-size:40px;
+	}
+	h2{
+		font-size:40px;
+	}
+	h3{
+		font-size:30px;
+	}
+}
+@media (max-width: 768px) {
+	h1{
+		font-size:35px;
+	}
+	h2{
+		font-size:35px;
+	}
+	h3{
+		font-size:25px;
+	}
+	h4{
+		font-size:18px;
+	}
+	h5{
+		font-size:16px;
+	}
+	h6{
+		font-size:12px;
+	}
+}
+@media (max-width: 480px) {
+	h1{
+		font-size:30px;
+	}
+	h2{
+		font-size:30px;
+	}
+	h3{
+		font-size:20px;
+	}
+}
+
+
+.site-header{
+	border-bottom:solid 1px #f2f2f2
+;}
+
+
+
+
+
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.sticky {
+	display: block;
+	position:relative;
+	overflow:hidden;
+}
+.sticky:after{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f006";
+    position: absolute;
+    top: -44px;
+    left: -49px;
+    background: #ec2327;
+    color: #fff;
+    height: 92px;
+    width: 92px;
+    font-size: 25px;
+    text-align: right;
+    line-height: 90px;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(43deg);
+    padding-right: 6px;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published) {
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.site-content-in .page-content-area{
+}
+.site-content-in .page-content-area .entry-header .entry-title{
+	margin-top:0px;
+	padding:0px;
+	margin-bottom: 0px;
+}
+.site-content-in .page-content-area .entry-content{
+	margin-top:0px;
+}
+.site-content-in .page-content-area .entry-content p{
+	margin-top:0px;
+}
+.site-content-in .page-content-area .entry-content a{
+	text-decoration:none;
+}
+.site-content-in .post{
+    position: relative;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #f2f2f2;
+    padding-bottom: 50px;
+}
+.site-content-in .post .entry-header {
+}
+.site-content-in .post .entry-header .entry-title {
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 0;
+	margin-top: 0;
+}
+.site-content-in .post .entry-header .entry-title a{
+	color: inherit;
+	text-decoration:none;
+}
+.site-content-in .post .entry-header .entry-title a:hover{
+	text-decoration:none;
+}
+.site-content-in .post .entry-image img{
+	width:100%;
+}
+
+.site-content-in .post .entry-header .entry-meta{
+    opacity: 0.7;
+    font-size: 90%;
+    padding-top: 3px;
+    font-style: italic;
+}
+.site-content-in .post .entry-header .entry-meta a{
+	text-decoration:none;
+}
+
+
+.site-content-in .post .entry-content{
+	margin-top: 20px;
+}
+.site-content-in .post .entry-content p{
+	margin-top:0px;
+	margin-bottom: 1em;
+}
+.site-content-in .post .entry-footer{
+	margin-top: 0px;
+	opacity: 0.7;
+	font-size: 90%;
+	padding-top: 3px;
+	font-style: italic;
+}
+.site-content-in .post .entry-footer a{
+	text-decoration:none;
+}
+
+body.category .post.post_format-post-format-image .entry-content {
+	padding-left:0px;
+	padding-right:0px;
+}
+body.category .post.post_format-post-format-image .entry-content .wp-caption{
+	margin-top:0px;
+}
+body.category .post.post_format-post-format-image .entry-content img{
+	width:100%;
+}
+
+/* -------------------- Not Found OR Error 404 */
+.site-content-in .error-404.not-found{
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 3px double #D6D6D6;
+	padding: 22px 25px 20px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+}
+.site-content-in .error-404.not-found .page-content{
+	margin-top:0px;
+}
+.site-content-in .error-404.not-found .page-header .page-title{
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.site-content-in .error-404.not-found .page-content .pagefirst-p{
+    opacity: 0.7;
+    font-size: 90%;
+    padding-top: 3px;
+    font-style: italic;
+}
+
+
+#comments {
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 3px double #D6D6D6;
+    padding: 22px 25px 20px;
+	background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+/*--------------------------------------------------------------
+## Site Content
+--------------------------------------------------------------*/
+.site-content {
+	padding-bottom: 40px;
+	padding-top: 40px;
+	background-color:#fff;
+}
+
+#secondary .widget {
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+}
+#secondary .widget-title{
+	margin-top:0;
+	margin-bottom:10px;
+	font-size:18px;	
+}
+#secondary .widget ul{
+	margin-bottom:0;	
+}
+
+
+
+/*- Container Width -*/
+.steed_pc_section_in,
+.container-width {
+    max-width: 1080px;
+    width:80%;
+}
+
+.braning-and-widgets {
+	min-height:75px;
+}
+
+
+.main-navigation a{
+ 	font-size: 14px;
+    font-weight: normal;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+
+.footer_copy_text{
+    float: left;
+}
+.footer_credit{
+    float: right;
+    text-align: right;
+}
+
+
+@media screen and (max-width: 1200px){
+	.cart-contents-steed .woocommerce-Price-amount{
+		display:none;	
+	}
+}
+@media screen and (max-width: 980px){
+	.footer_copy_text{
+ 	   float: none;
+ 		text-align: center;
+	}
+	.footer_credit{
+	    float: none;
+	    text-align: center;
+	}
+
+}

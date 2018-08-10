@@ -1,0 +1,179 @@
+/*
+	Topbar
+---------------------*/
+.topbar{
+	background-color: #111;
+	padding-top: 7px;
+	padding-bottom: 7px;
+}
+.topbar-left{
+	float: left;
+}
+.topbar-right{
+	float: right;
+}
+
+/*
+	Branding
+---------------------*/
+.site-header{
+    box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+    background:#fff;
+}
+.braning-and-widgets{
+	padding-top: 13px;
+	padding-bottom: 12px;
+	position: relative;
+	background-color: #fff;
+}
+
+.site-branding{
+	width: 30%;
+	float: left;
+}
+.header-widgets{
+	width: 65%;
+	float: right;
+}
+.header-widgets .header_email{
+	float: right;
+	margin-left: 15px;
+}
+.header-widgets .header_phone{
+	float: right;
+	margin-right: 15px;
+}
+a.responsive-menu-hand{
+	right:	auto;
+	left:0;
+}
+.mavigation-holder{
+    border-top: 1px solid #eeeeee;
+}
+.mavigation-holder::after,
+.mavigation-holder::before{
+	display:table;
+	clear:both;
+	content:" ";
+}
+.mavigation-holder-in{ 
+	position:relative; 
+}
+
+#site-navigation{
+	float: left;
+	margin-top: 3px;
+}
+.social-widgets{
+	float: right;
+	margin-top: 3px;
+}
+
+.main-navigation ul ul {
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.16);
+    border-radius: 4px;
+    padding: 4px;
+    box-sizing: border-box;
+    width: 208px;
+}
+#header_menu li ul li:last-child{
+	border-bottom:0;
+}
+
+/*
+	Logo & title Styling
+---------------------*/
+.site-header .site-header-in{
+	position:relative;	
+}
+
+.site-header .site-title,
+.site-header .site-description{
+	margin-top:0;
+	margin-bottom:0;	
+}
+.site-header .site-title{
+	line-height:1.1;
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 3px;
+}
+.site-header .site-title a{
+	text-decoration:none;
+	color:#000;	
+}
+.site-header .site-description{
+	font-size:14px;	
+}
+.site-header .ph1_logo img{
+	max-width:100%;	
+}
+
+
+
+
+
+/*	Social Icons
+----------------------*/
+.social-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+a.responsive-menu-hand{
+	right: 5%;
+	left:auto;
+	top: 23px;
+}
+@media screen and (max-width: 1200px){
+	#site-navigation{
+		display:none;
+	}
+	a.responsive-menu-hand{
+		display:block
+	}
+	.social-widgets{
+		margin-right: 50px;
+		margin-top:2px
+	}
+}
+
+@media screen and (max-width: 768px){
+	.header_phone .header_phone_img,
+	.header_email .header_email_img{
+		display:none !important;	
+	}
+	.topbar-left,
+	.topbar-right{
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+		width: 90%;
+		max-width: 420px;
+	}
+	.header_email,
+	.header_phone{
+		text-align:center !important;
+	}
+}
+@media screen and (max-width: 650px){
+	.header_phone .header_phone_text span,
+	.header_email .header_email_text span{
+		display:none !important;
+	}
+
+	.site-branding{
+		width:100%;
+		text-align: left;
+		padding-top:10px;
+		padding-bottom:10px;
+		float: none;
+	}
+	.braning-and-widgets{
+		padding:0;
+	}
+	.site-header .social-widgets{
+		display:none;
+	}
+}

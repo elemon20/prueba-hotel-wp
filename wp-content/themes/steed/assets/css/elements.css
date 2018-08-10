@@ -1,0 +1,132 @@
+/*==============================================================================
+	Header Email
+===============================================================================*/
+/*
+	Skin #1
+-------------------------*/
+.header_email.eSkin_1{
+	position: relative;
+	text-align: left;
+}
+.header_email.eSkin_1 a{
+	
+text-decoration: none;
+}
+.header_email.eSkin_1 .header_email_img{
+	position: absolute;
+	left: 0;
+	top: 0px;
+}
+.header_email.eSkin_1 .header_email_img img{
+	max-width:48px;
+}
+.header_email.eSkin_1 .header_email_img i{
+	font-size: 48px;
+}
+.header_email.eSkin_1.has_icon .header_email_text{
+	padding-left: 56px;
+}
+.header_email.eSkin_1 .header_email_text span{
+	display: block;
+}
+.header_email.eSkin_1 .header_email_text strong{
+	display: block;
+}
+
+/*
+	Skin #2
+-------------------------*/
+.header_email.eSkin_2{
+	position: relative;
+	text-align: left;
+}
+.header_email.eSkin_2 a{
+	text-decoration: none;
+}
+.header_email.eSkin_2 .header_email_img{
+	display: inline-block;
+	margin-right: 10px;
+}
+.header_email.eSkin_2 .header_email_img img{
+	max-width:48px;
+}
+.header_email.eSkin_2 .header_email_img i{
+	font-size: inherit;
+}
+.header_email.eSkin_2 .header_email_text{
+	display: inline-block;
+}
+.header_email.eSkin_2 .header_email_text span{
+	display: inline-block;
+	margin-right: 10px;
+}
+.header_email.eSkin_2 .header_email_text strong{
+	display: inline-block;
+}
+
+
+/*==============================================================================
+	Header Phone
+===============================================================================*/
+/*
+	Skin #1
+-------------------------*/
+.header_phone.eSkin_1{
+	position: relative;
+	text-align: left;
+}
+.header_phone.eSkin_1 a{
+	
+text-decoration: none;
+}
+.header_phone.eSkin_1 .header_phone_img{
+	position: absolute;
+	left: 0;
+	top: 0px;
+}
+.header_phone.eSkin_1 .header_phone_img img{
+	max-width:48px;
+}
+.header_phone.eSkin_1 .header_phone_img i{
+	font-size: 48px;
+}
+.header_phone.eSkin_1.has_icon .header_phone_text{
+	padding-left: 56px;
+}
+.header_phone.eSkin_1 .header_phone_text span{
+	display: block;
+}
+.header_phone.eSkin_1 .header_phone_text strong{
+	display: block;
+}
+
+/*
+	Skin #2
+-------------------------*/
+.header_phone.eSkin_2{
+	position: relative;
+	text-align: left;
+}
+.header_phone.eSkin_2 a{
+	text-decoration: none;
+}
+.header_phone.eSkin_2 .header_phone_img{
+	display: inline-block;
+	margin-right: 10px;
+}
+.header_phone.eSkin_2 .header_phone_img img{
+	max-width:48px;
+}
+.header_phone.eSkin_2 .header_phone_img i{
+	font-size: inherit;
+}
+.header_phone.eSkin_2 .header_phone_text{
+	display: inline-block;
+}
+.header_phone.eSkin_2 .header_phone_text span{
+	display: inline-block;
+	margin-right: 10px;
+}
+.header_phone.eSkin_2 .header_phone_text strong{
+	display: inline-block;
+}

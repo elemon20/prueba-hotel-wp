@@ -1,0 +1,74 @@
+.site-header{
+    box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+	margin-bottom:10px;
+	background:#fff;
+}
+.braning-and-widgets{
+	padding-top: 13px;
+    padding-bottom: 12px;	
+}
+.header-widgets .widget{
+	margin-bottom:0;	
+}
+.header-widgets .widget img{
+	margin-bottom:-5px;	
+}
+
+
+a.responsive-menu-hand{
+	right:	auto;
+	left:0;
+}
+
+
+.mavigation-holder{
+    border-top: 4px double #eeeeee;
+}
+.mavigation-holder::after,
+.mavigation-holder::before{
+	display:table;
+	clear:both;
+	content:" ";
+}
+.mavigation-holder-in{ position:relative; }
+
+/*
+	Logo & title Styling
+---------------------*/
+.site-header .site-header-in{
+	position:relative;	
+}
+.site-header .site-title,
+.site-header .site-description{
+	margin-top:0;
+	margin-bottom:0;	
+}
+.site-header .site-title{
+	line-height:1.1;
+	font-size:24px;	
+	line-height: 1.1;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 7px;
+}
+.site-header .site-title a{
+	text-decoration:none;
+	color:#000;	
+}
+.site-header .site-description{
+	font-size:14px;	
+}
+.site-header .ph1_logo img{
+	max-width:100%;	
+}
+
+
+
+
+
+/*	Social Icons
+----------------------*/
+.social-icons {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,379 @@
+/*
+Theme Name: Steed
+Theme URI: http://tallyThemes.com/steed
+Author: TallyThemes
+Author URI: http://tallyThemes.com
+Description: Steed is a very basic and standard wordpress theme. It is very easy to customize and very fast loaded. See Official theme demo here http://wp4.tallythemesdemo.com
+Version: 3.4.8
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: steed
+Tags: one-column, two-columns, right-sidebar, custom-menu, featured-images, rtl-language-support, sticky-post, threaded-comments, translation-ready, blog, custom-logo
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+
+Steed WordPress Theme, Copyright (C) 2017, TallyThemes
+Steed is distributed under the terms of the GNU GPL
+   
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Content
+	## Posts and pages
+	## Comments
+# Layout
+# Site Header
+# Site Footer
+# Site Content
+--------------------------------------------------------------*/
+
+
+
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.sticky {
+	display: block;
+	position:relative;
+	overflow:hidden;
+}
+.sticky:after{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f006";
+    position: absolute;
+    top: -44px;
+    left: -49px;
+    background: #ec2327;
+    color: #fff;
+    height: 92px;
+    width: 92px;
+    font-size: 25px;
+    text-align: right;
+    line-height: 90px;
+    -ms-transform: rotate(20deg);
+    -webkit-transform: rotate(20deg);
+    transform: rotate(43deg);
+    padding-right: 6px;
+}
+
+.hentry {
+	margin: 0 0 1.5em;
+}
+
+.byline,
+.updated:not(.published) {
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.site-content-in .page-content-area{
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 3px double #D6D6D6;
+    padding: 15px 25px 20px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+	background-color: rgb(255, 255, 255);
+}
+.site-content-in .page-content-area .entry-header .entry-title{
+	margin-top:0px;
+	padding:0px;
+	margin-bottom: 0px;
+}
+.site-content-in .page-content-area .entry-content{
+	margin-top:0px;
+}
+.site-content-in .page-content-area .entry-content p{
+	margin-top:0px;
+}
+.site-content-in .page-content-area .entry-content a{
+	text-decoration:none;
+}
+.site-content-in .post{
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 3px double #D6D6D6;
+    padding-bottom: 20px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+	background-color: rgb(255, 255, 255);
+}
+.site-content-in .post .entry-header {
+	padding: 22px 25px 20px;
+}
+.site-content-in .post .entry-header .entry-title {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 5px;
+	margin-top: 0;
+}
+.site-content-in .post .entry-header .entry-title a{
+	color: inherit;
+	text-decoration:none;
+}
+.site-content-in .post .entry-header .entry-title a:hover{
+	text-decoration:none;
+}
+.site-content-in .post .entry-image img{
+	width:100%;
+}
+
+.site-content-in .post .entry-header .entry-meta{
+    opacity: 0.7;
+    font-size: 90%;
+    padding-top: 3px;
+    font-style: italic;
+}
+.site-content-in .post .entry-header .entry-meta a{
+	text-decoration:none;
+}
+
+
+.site-content-in .post .entry-content{
+	margin-top: 0px;
+	padding: 0px 25px 0px;
+	border-bottom: 1px solid #D6D6D6;
+}
+.site-content-in .post .entry-content p{
+	margin-top:0px;
+	margin-bottom: 1em;
+}
+.site-content-in .post .entry-footer{
+	margin-top: 0px;
+	padding: 20px 25px 0px !important;
+	opacity: 0.7;
+    font-size: 90%;
+    padding-top: 3px;
+    font-style: italic;
+}
+.site-content-in .post .entry-footer a{
+	text-decoration:none;
+}
+
+body.category .post.post_format-post-format-image .entry-content {
+	padding-left:0px;
+	padding-right:0px;
+}
+body.category .post.post_format-post-format-image .entry-content .wp-caption{
+	margin-top:0px;
+}
+body.category .post.post_format-post-format-image .entry-content img{
+	width:100%;
+}
+
+/* -------------------- Not Found OR Error 404 */
+.site-content-in .error-404.not-found{
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 3px double #D6D6D6;
+	padding: 22px 25px 20px;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+}
+.site-content-in .error-404.not-found .page-content{
+	margin-top:0px;
+}
+.site-content-in .error-404.not-found .page-header .page-title{
+    font-size: 30px;
+    line-height: 1.5;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.site-content-in .error-404.not-found .page-content .pagefirst-p{
+    opacity: 0.7;
+    font-size: 90%;
+    padding-top: 3px;
+    font-style: italic;
+}
+
+
+#comments {
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 3px double #D6D6D6;
+    padding: 22px 25px 20px;
+	background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+}
+
+
+
+
+/*--------------------------------------------------------------
+## Site Content
+--------------------------------------------------------------*/
+.site-content {
+	padding-bottom:30px;
+	padding-top:30px;	
+}
+
+#secondary .widget {
+    padding: 25px;
+    border-bottom: 3px double #D6D6D6;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+    -webkit-box-shadow: 0px 0px 2px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+	background-color: rgb(255, 255, 255);
+}
+#secondary .widget-title{
+	margin-top:0;
+	margin-bottom:10px;
+	font-size:18px;	
+}
+#secondary .widget ul{
+	margin-bottom:0;	
+}
+
+
+/*--------------------------------------------------------------
+## Plugins Style
+--------------------------------------------------------------*/
+.mks_ads_widget .widget-title {
+    font-size: 11px !important;
+    text-align: right;
+    text-transform: uppercase;
+    font-weight: 300;
+    opacity: 0.6;
+    margin-bottom: 3px!important;
+}
+.mks_adswidget_ul.large,
+.mks_adswidget_ul.large li{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.mks_adswidget_ul.large img{
+    width: 100% !important;
+    height: auto !important;
+}
+#secondary .widget.mks_ads_widget {
+    padding: 0;
+    background: none;
+    box-shadow: 0px 0px 2px rgba(0,0,0,0);
+    -webkit-box-shadow: 0px 0px 2px rgba(0,0,0,0);
+}
+
+
+#secondary .widget.widget_wpt {
+    padding: 0px;
+}
+
+
+.widget_wpt ul,
+.mks_adswidget_ul.large li{
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+.widget_wpt ul.wpt-tabs li{
+    font-size: 11px;
+    text-transform: uppercase;
+    line-height: 1.4;	
+}
+.widget_wpt ul.wpt-tabs li a{
+	font-weight: bold;
+    padding: 2px 0 0px;
+}
+.wpt_widget_content ul li {
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 1.4;
+}
+.wpt_widget_content ul li a{
+	text-decoration:none;
+}
+.wpt_widget_content ul li .wpt-postmeta {
+    text-transform: capitalize;
+    font-size: 90%;
+}
+
+
+
+.rpwwt-widget .widget ul li {
+    margin-bottom: 10px;
+}
+.rpwwt-widget .widget ul li a {
+    color: inherit;
+}
+.rpwwt-widget .widget ul li img {
+    height: 70px!important;
+    width: 70px!important;
+	padding-bottom: 0px;
+    margin-bottom: 7px;
+}
+.rpwwt-widget .widget ul li .rpwwt-post-title {
+    font-weight: bold;
+    line-height: 1.3;
+}
+.rpwwt-widget .widget ul li .rpwwt-post-date {
+    opacity: 0.7;
+    font-size: 90%;
+    padding-top: 3px;
+    font-style: italic;
+}
+
+.footer-widgets .mks_ads_widget ul{
+	text-align: right;
+}
+.footer-widgets .mks_ads_widget .small li, 
+.footer-widgets .mks_ads_widget ul.custom li, 
+.footer-widgets .mks_adswidget_ul.small li, 
+.footer-widgets .mks_adswidget_ul.custom li {
+    margin-bottom: 6px;
+}
+
+
+
+.mks_adswidget_ul.small {
+    margin: 0;
+    padding: 0;
+}
+.mks_adswidget_ul.small li{
+    margin-bottom: 9px !important;
+    border: solid 2px #f1f1f1;
+    background-color: #fff;
+    padding: 7px;
+    box-sizing: border-box;
+    width: 49%;
+    margin-right: 0 !important;
+}
+.mks_adswidget_ul.small li img{
+    max-width: 100% !important;
+	width: 100% !important;
+    height: auto !important;
+}
+
+.site-footer .mks_adswidget_ul.small li{
+	margin-bottom: 0px;
+    border: solid 0px #f1f1f1;
+    background-color: rgba(0,0,0,0);
+    padding: 2px;
+	width: 50%;
+    float: left;
+}

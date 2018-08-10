@@ -1,0 +1,17 @@
+#elementor-template-library-menu-pre-made-templates,
+#elementor-template-library-footer-banner,
+.elementor-template-library-template-remote{
+	display:none !important;	
+}
+
+#elementor-template-library-templates-container{
+	min-height:400px;	
+}
+
+#elementor-template-library-templates div[data-template-source="remote"]{
+	background-image:url(../img/click-on-my-template.png);
+	background-repeat:no-repeat;
+	background-position:center top;
+	background-size:contain;
+	box-shadow: 1px 1px 5px rgba(0, 0, 0, 0);
+}	

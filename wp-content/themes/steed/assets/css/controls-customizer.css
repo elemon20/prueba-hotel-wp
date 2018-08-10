@@ -1,0 +1,83 @@
+html body #customize-theme-controls .control-section li.steed-hide.customize-control-checkbox,
+html body #customize-theme-controls .control-section li.steed-hide.customize-control-text,
+html body #customize-theme-controls .control-section li.steed-hide.customize-control-textarea,
+html body #customize-theme-controls .control-section li.steed-hide.customize-control-select,
+html body #customize-theme-controls .control-section li.steed-hide.customize-control-alpha-color,
+html body #customize-theme-controls .control-section li.steed-hide.customize-control-image{
+	display:none !important;
+}
+
+
+
+.steed_Customize_Control_heading{
+	background-color: #3165d9;
+	padding: 10px 15px;
+	margin-left: -15px;
+	margin-right: -15px;
+	
+}
+.steed_Customize_Control_heading h4{
+	margin: 0; 
+	color: #fff; 
+	font-size: 15px;
+	position: relative;
+}
+.steed_Customize_Control_heading p{
+	color:#fff;
+}
+
+/*with tab*/
+.control-section li.steed-tab-item{
+	background-color: #ffffff;
+	padding: 10px 15px;
+	margin-left: -15px;
+	margin-right: -15px;
+	margin-top: -12px;
+}
+
+
+.steed_Customize_Control_heading.hastab{
+	background-color: #eeeeee;
+	padding-bottom: 0;
+	
+}
+.steed_Customize_Control_heading.hastab h4{
+	color:#23282d;
+	margin-bottom:5px;
+	font-size:14px;
+
+}
+.steed_Customize_Control_heading.hastab p{
+	color:#23282d;
+}
+.steed_Customize_Control_heading .tabhand{
+	color:#23282d;
+	text-decoration:none;
+	display:inline-block;
+	border: solid 1px #ccc;
+	padding:3px 5px;
+	width: 23%;
+	text-align: center;
+	box-sizing: border-box;
+	margin: 1%;
+	margin-bottom: -3px;
+	border-radius: 4px;
+	z-index: 0;
+}
+.steed_Customize_Control_heading .tabhand:hover{
+	opacity: 0.8;
+}
+.steed_Customize_Control_heading .tabhand.tabactive{
+	color:#000;
+	background-color:#fff;
+}
+
+.steed_Customize_Control_heading .closeallitems{
+	position: absolute;
+	top: -12px;
+	right: -6px;
+	text-decoration: none;
+	font-size: 22px;
+	padding: 10px;
+	display: block;
+}
